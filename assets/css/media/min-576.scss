@@ -1,0 +1,144 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+        padding: 0 !important;
+    }  
+    h4.heading{
+        .sub-heading{
+            font-size: 18px !important;            
+        }
+        font-size: 45px !important;  
+    }
+    header{   
+        .navbar{
+            margin: 0 10px;
+            .menu-bar{
+                .menu{
+                    position: absolute;
+                    flex-direction: column;
+                    align-items: baseline !important;
+                    padding: 10px;
+                    top: 66px;
+                    left: 0;
+                    right: 0;
+                    background: #ffff;
+                    gap: 20px 0 !important;
+                    box-shadow: 0 0 10px 1px #cac0c075;
+                    display: none !important;                    
+                }
+            }
+        }
+    }  
+    .carousel {
+        min-height: 340px !important;
+        .slide{
+            min-height: 340px !important;
+            padding-bottom: 15px !important;
+        }
+        .sub-head{
+            padding-bottom: 20px !important;
+        }
+       .heading{
+        font-size: 32px !important;
+       }
+        .carousel-btn-grid{
+            gap: 10px !important;
+            .carousel-btn{
+                padding: 10px 0 !important;
+                span{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+    .image-content-gridBox{
+        grid-template-columns: 1fr !important;
+        padding:10px !important;
+        .desc{
+            line-height: 20px !important;
+            font-size: 14px !important;
+        }
+    }
+    .ask-your-self{
+        .gridBoxs{
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .request-callback-courses {
+        .gridBoxs {
+            grid-template-columns: 1fr !important; 
+            gap: 0 !important;
+        }
+    }
+    .blogSec {
+        .postGrid {
+            padding:40px 20px 0 20px !important;
+            grid-template-columns: 1fr !important;
+        }
+    }
+    
+    .our-stats{
+        grid-template-columns: 1fr !important;
+        .left-side{
+            padding: 4em 4em !important;
+        }
+        .right-side{
+            padding: 4em !important;
+        }
+    }
+    .pricingSec{
+        .pricing-plans{
+            grid-template-columns: 1fr !important;
+            gap: 30px;
+        }
+    }
+    .our-client{
+        .desc{
+            width: unset !important;
+        }
+        .client-boxes{
+            .client-box{
+                .content{
+                    flex-direction: column;
+                    padding: 5px !important;
+                    gap: 10px !important;
+                }
+            }
+        }
+    }
+    .early-contact-Sec{
+        grid-template-columns: 1fr !important;
+        padding-left: 50px !important;
+        .right-side{
+            justify-content:left !important;
+        }
+    }
+    /*
+    ================================================================
+    About -us
+    ================================================================
+    */
+    .about-us{
+        .desc{
+            width: 80% !important;
+        }   
+        .gridBoxs{
+            grid-template-columns: 1fr!important;
+        }
+    }    
+    .what-we-offer{
+        grid-template-columns: 1fr !important;
+        .left-side{
+            padding: 4em 4em !important;
+        }
+        .right-side{
+            padding: 4em !important;
+        }
+    }  
+    .expert-team{
+        .GridBoxes{
+            grid-template-columns: 1fr !important;
+        } 
+    }  
+   
+}

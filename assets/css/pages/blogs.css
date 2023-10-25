@@ -1,0 +1,94 @@
+.blogs-sec {
+  padding: 100px 0;
+}
+.blogs-sec .container {
+  border: 2px solid #DCEFDC;
+}
+.blogs-sec .container .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.blogs-sec .container .row .image img {
+  height: auto;
+  max-width: 100%;
+}
+.blogs-sec .container .row .content {
+  padding: 35px;
+}
+.blogs-sec .container .row .content .blog-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.blogs-sec .container .row .content .blog-title a {
+  color: #323B43;
+}
+.blogs-sec .container .row .content .date-user-comment {
+  display: flex;
+  gap: 30px;
+  font-size: 13px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ececec;
+}
+.blogs-sec .container .row .content .date-user-comment a {
+  color: #777777;
+}
+.blogs-sec .container .row .content .date-user-comment .far {
+  color: #2a7d2e;
+  margin-right: 10px;
+}
+.blogs-sec .container .row .content .date-user-comment .fas {
+  color: #2a7d2e;
+  margin-right: 10px;
+}
+.blogs-sec .container .row .content p.desc {
+  line-height: 25px;
+  color: #656363;
+  margin-bottom: 20px;
+}
+.blogs-sec .container .row .content .post-detail-link {
+  color: black;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #2a7d2e;
+}
+.blogs-sec .container .row .content .post-detail-link span {
+  font-size: 12px;
+}
+
+.blog-detail .blog-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.blog-detail .blog-title a {
+  color: #323B43;
+}
+.blog-detail .date-user-comment {
+  display: flex;
+  gap: 30px;
+  font-size: 13px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ececec;
+}
+.blog-detail .date-user-comment a {
+  color: #777777;
+}
+.blog-detail .date-user-comment .far {
+  color: #2a7d2e;
+  margin-right: 10px;
+}
+.blog-detail .date-user-comment .fas {
+  color: #2a7d2e;
+  margin-right: 10px;
+}
+.blog-detail p.desc {
+  line-height: 25px;
+  color: #656363;
+  margin-bottom: 20px;
+}
+.blog-detail p.desc a {
+  color: #2a7d2e;
+  font-weight: 700;
+}/*# sourceMappingURL=blogs.css.map */

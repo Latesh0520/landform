@@ -1,0 +1,219 @@
+@import '../mixin';
+@media (max-width: 576px) {
+    .container {
+        padding: 0px !important;
+        max-width: 100%;
+
+    }
+
+    h4.heading {
+        .sub-heading {
+            font-size: 16px !important;
+        }
+
+        font-size: 26px !important;
+    }
+
+    header {
+
+        .navbar {
+            margin: 0 10px;
+
+            .menu-bar {
+                .menu {
+                    position: absolute;
+                    flex-direction: column;
+                    align-items: baseline !important;
+                    padding: 10px;
+                    top: 66px;
+                    left: 0;
+                    right: 0;
+                    background: #ffff;
+                    gap: 20px 0 !important;
+                    box-shadow: 0 0 10px 1px #cac0c075;
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    .carousel {
+        min-height: 340px !important;
+
+        .slide {
+            min-height: 340px !important;
+            padding-bottom: 15px !important;
+        }
+
+        .sub-head {
+            padding-bottom: 20px !important;
+        }
+
+        .heading {
+            font-size: 32px !important;
+        }
+
+        .carousel-btn-grid {
+            gap: 10px !important;
+
+            .carousel-btn {
+                padding: 10px 0 !important;
+
+                span {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .image-content-gridBox {
+        grid-template-columns: 1fr !important;
+        padding: 10px !important;
+
+        .desc {
+            line-height: 20px !important;
+            font-size: 14px !important;
+        }
+    }
+
+    .about-our-landform {
+        .menu-content {
+            margin-top: 30px;
+
+            .item {
+                flex-direction: column-reverse;
+
+                .content {
+                    h2 {
+                        font-size: 10vmin !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .ask-your-self {
+        .gridBoxs {
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+    .request-callback-courses {
+        .gridBoxs {
+            grid-template-columns: 1fr !important; 
+            gap: 0 !important;
+        }
+    }
+
+    .blogSec {
+        .postGrid {
+            padding:40px 20px 0 20px !important;
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .our-stats{
+        grid-template-columns: 1fr !important;
+        .left-side{
+            padding: 4em 4em !important;
+            h5{
+                font-size: 20px !important;
+            }
+            h2{
+                font-size: 30px !important;
+            }
+        }
+        .right-side{
+            padding: 20px !important;
+        }
+    }
+    .pricingSec{
+        .pricing-plans{
+            grid-template-columns: 1fr !important;
+            gap: 30px;
+        }
+    }
+    .our-client{
+        .desc{
+            width: unset !important;
+        }
+        .client-boxes{
+            .client-box{
+                .content{
+                    flex-direction: column;
+                    padding: 5px !important;
+                    gap: 10px !important;
+                }
+            }
+        }
+    }
+    .early-contact-Sec{
+        grid-template-columns: 1fr !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        .right-side{
+            justify-content:left !important;
+        }
+    }
+    /*
+    ================================================================
+    About -us
+    ================================================================
+    */    
+    .about-us{
+        .desc{
+            width: 80% !important;
+        }   
+        .gridBoxs{
+            grid-template-columns: 1fr !important;
+            .gridBox{
+                .content{
+                    h3{
+                        font-size: 25px !important;
+                    }
+                    p{
+                        font-size: 15px !important;
+                        line-height: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+    .what-we-offer{
+        grid-template-columns: 1fr !important;
+        .left-side{
+            padding:50px 20px !important;
+            h5{
+                font-size: 20px !important;
+            }
+            h2{
+                font-size: 30px !important;
+            }
+        }
+        .right-side{
+            padding: 20px !important;
+            .gridBoxs{
+                grid-template-columns: 1fr !important;
+            }
+        }
+    }   
+    .expert-team{
+        padding: 50px 20px !important;
+        .GridBoxes{
+            grid-template-columns: 1fr !important;
+        } 
+    } 
+     /*
+    ================================================================
+    Services
+    ================================================================
+    */ 
+    .our-servieces{
+        padding: 50px 20px !important;
+        .gridBoxes{
+            grid-template-columns: 1fr !important;
+            .gridBox{
+                padding: 20px !important;
+            }
+        }
+    }
+}

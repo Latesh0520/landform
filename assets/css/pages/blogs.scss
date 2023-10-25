@@ -1,0 +1,106 @@
+@import '../mixin';
+
+.blogs-sec {
+    padding: 100px 0;
+
+    .container {
+
+        border: 2px solid #DCEFDC;
+
+        .row {
+            @include gridBox(2);
+            align-items: center;
+
+            .image {
+                img {
+                    height: auto;
+                    max-width: 100%;
+                }
+            }
+
+            .content {
+                padding: 35px;
+                .blog-title{
+                    font-size: 32px;
+                    margin-bottom: 15px;
+                    a{
+                        color: #323B43;
+                    }
+                }
+                .date-user-comment{
+                    display: flex;
+                    gap: 30px;
+                    font-size: 13px;
+                    padding-bottom: 20px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid #ececec;
+                    a{
+                        color:#777777;
+                    }
+                    .far{
+                        color: #2a7d2e;
+                        margin-right: 10px;
+                    }
+                    .fas{
+                        color: #2a7d2e;
+                        margin-right: 10px;
+                    }
+                }
+                p.desc{
+                    line-height: 25px;
+                    color: #656363;
+                    margin-bottom: 20px;
+                }
+                .post-detail-link{
+                    color: black;
+                    font-size: 16px;
+                    padding-bottom: 12px;
+                    border-bottom: 4px solid #2a7d2e;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+.blog-detail{
+    .blog-title{
+        font-size: 32px;
+        margin-bottom: 15px;
+        a{
+            color: #323B43;
+        }
+    }
+    .date-user-comment{
+        display: flex;
+        gap: 30px;
+        font-size: 13px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ececec;
+        a{
+            color:#777777;
+        }
+        .far{
+            color: #2a7d2e;
+            margin-right: 10px;
+        }
+        .fas{
+            color: #2a7d2e;
+            margin-right: 10px;
+        }
+    }
+    p.desc{
+        line-height: 25px;
+        color: #656363;
+        margin-bottom: 20px;
+        a{
+            color: #2a7d2e;
+            font-weight: 700;
+        }
+    }
+    .social-icons{
+        
+    }
+}
