@@ -79,3 +79,70 @@ h4.heading{
         
     }
 }
+// Image Overlap 1
+.image-overlap-1{
+    position: relative;
+        overflow: hidden;
+        z-index: 1;
+        img{
+            height: auto;            
+            vertical-align: middle;
+            transition: 0.5s ease;
+            width: calc(100% + 20px);
+            margin-left: -20px;
+        }
+        .content{
+            position: absolute;
+            top: 0;right: 0;bottom: 0;left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+            height: 80%;
+            margin: auto;
+            color: #fff;
+            gap:20px 0;
+            overflow: hidden;
+            z-index: 3;
+
+            h5{
+                font-size: 18px;
+                text-transform: uppercase;
+            }          
+            .hr-line{
+                height: 3px;
+                width: 100%;
+                background-color: #fff;   
+                transform: translateX(-400px);
+                transition: 0.5s ease;
+            }
+            .desc{
+                transform: translateX(400px);
+                transition: 0.5s ease;
+            }
+        }
+        &::before{
+            content: '';
+            background-color:#2a7d2e;
+            position: absolute;
+            top: 0;right: 0;bottom: 0;left: 0;
+            z-index: 1;
+            opacity: 0;
+            transition: 0.5s ease;
+        }
+        &:hover{
+            &::before{
+                opacity: 0.6;
+            }
+            .hr-line{
+                transform: translateX(0px) !important;
+            }
+            .desc{
+                transform: translateX(0px);
+            }
+            img{
+                transform: translateX(10px);
+            }
+        }
+}

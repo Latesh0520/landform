@@ -70,4 +70,18 @@
   .expert-team .GridBoxes {
     grid-template-columns: 1fr 1fr !important;
   }
+  /*------------------------------------------------------*/
+  .gallery-GridBoxes {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  /* Timeline ==================*/
+  .timeline-sec .timeline {
+    width: 860px !important;
+  }
+  .timeline-sec .timeline .left {
+    width: 400px !important;
+  }
+  .timeline-sec .timeline .right {
+    width: 400px !important;
+  }
 }/*# sourceMappingURL=min-992.css.map */

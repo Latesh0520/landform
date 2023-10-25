@@ -50,4 +50,68 @@
             gap: 0px !important;
         }
     }
+
+    /* portfolio ====================*/
+    .portfolio{
+        .row-2-col{
+            grid-template-columns: repeat(2,1fr) !important;
+        }
+        .row-3-col{
+            grid-template-columns: repeat(3,1fr) !important;
+        }
+    }
+     /* Timeline ==================*/
+     .timeline-sec{
+         .timeline{
+            width: 660px !important;
+            li{  
+                margin-top: unset;
+                .block{
+                    margin-left: 0px !important;
+                }
+                
+                .desc{
+                    text-align: unset ;
+                    background-color: unset;
+                    padding: unset;
+                }
+           }
+            .left{
+                width: 300px !important;
+                .flag{
+                    flex-direction: row-reverse !important;
+                    h4{
+                        &::after{
+                            top:11px !important;
+                            right:-8px !important;
+                        }
+                    }
+                }
+                
+                &:before{
+                    left: calc( 100% + 20px) !important;
+                    top: 10px !important;
+                    margin-left: 0 !important;
+                }
+            }
+            .right{
+                width: 300px !important;
+                .flag{
+                    flex-direction: row !important;
+                    h4{                       
+                        &::before{
+                            top:11px !important;
+                            left: -8px !important;
+                        }
+                    }
+                } 
+                
+                &:before{
+                    left: -40px !important;
+                    top: 10px !important;
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
 }

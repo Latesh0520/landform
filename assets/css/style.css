@@ -73,4 +73,74 @@ h4.heading .sub-heading {
 .page-title h1 {
   color: #fff;
   font-size: 40px;
+}
+
+.image-overlap-1 {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.image-overlap-1 img {
+  height: auto;
+  vertical-align: middle;
+  transition: 0.5s ease;
+  width: calc(100% + 20px);
+  margin-left: -20px;
+}
+.image-overlap-1 .content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  color: #fff;
+  gap: 20px 0;
+  overflow: hidden;
+  z-index: 3;
+}
+.image-overlap-1 .content h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.image-overlap-1 .content .hr-line {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform: translateX(-400px);
+  transition: 0.5s ease;
+}
+.image-overlap-1 .content .desc {
+  transform: translateX(400px);
+  transition: 0.5s ease;
+}
+.image-overlap-1::before {
+  content: "";
+  background-color: #2a7d2e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.image-overlap-1:hover::before {
+  opacity: 0.6;
+}
+.image-overlap-1:hover .hr-line {
+  transform: translateX(0px) !important;
+}
+.image-overlap-1:hover .desc {
+  transform: translateX(0px);
+}
+.image-overlap-1:hover img {
+  transform: translateX(10px);
 }/*# sourceMappingURL=style.css.map */

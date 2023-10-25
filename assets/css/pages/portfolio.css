@@ -1,9 +1,6 @@
 .portfolio-sec {
   padding: 100px 0;
 }
-.portfolio-sec .portfolio {
-  display: unset;
-}
 .portfolio-sec .portfolio .row-2-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

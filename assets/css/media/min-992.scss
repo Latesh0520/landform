@@ -86,4 +86,21 @@
             grid-template-columns: 1fr 1fr !important;
         } 
     }    
+    /*------------------------------------------------------*/
+    // Gallery Page
+    .gallery-GridBoxes{
+        grid-template-columns: repeat(3 , 1fr) !important; 
+    }
+    /* Timeline ==================*/
+    .timeline-sec{
+        .timeline{
+            width: 860px !important;
+            .left{
+                width:400px !important;
+            }
+            .right{
+                width:400px !important;
+            }
+        }
+    } 
 }

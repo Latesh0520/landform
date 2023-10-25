@@ -166,4 +166,83 @@
   .our-servieces .gridBoxes .gridBox {
     padding: 20px !important;
   }
+  /*------------------------------------------------------*/
+  .gallery-GridBoxes {
+    grid-template-columns: repeat(1, 1fr) !important;
+    padding: 0 20px !important;
+  }
+  .portfolio {
+    padding: 0 20px !important;
+  }
+  .portfolio .row-2-col {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .portfolio .row-2-col img {
+    max-height: auto !important;
+  }
+  .portfolio .row-3-col {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .portfolio .row-3-col img {
+    max-height: auto !important;
+  }
+  /*Timeline Page*/
+  .timeline-sec .timeline {
+    width: 100% !important;
+  }
+  .timeline-sec .timeline li .block {
+    margin-left: 0px !important;
+  }
+  .timeline-sec .timeline li .desc {
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 15px;
+  }
+  .timeline-sec .timeline .left {
+    width: 100% !important;
+  }
+  .timeline-sec .timeline .left .flag {
+    flex-direction: column !important;
+  }
+  .timeline-sec .timeline .left .flag h4::after {
+    top: -4px !important;
+    right: calc(50% - 11px) !important;
+  }
+  .timeline-sec .timeline .left:before {
+    left: calc(50% - 10px) !important;
+    top: -35px !important;
+    margin-left: 0 !important;
+  }
+  .timeline-sec .timeline .right {
+    width: 100% !important;
+  }
+  .timeline-sec .timeline .right .flag {
+    flex-direction: column !important;
+  }
+  .timeline-sec .timeline .right .flag h4::before {
+    top: -4px !important;
+    left: calc(50% - 8px) !important;
+  }
+  .timeline-sec .timeline .right:before {
+    left: calc(50% - 10px) !important;
+    top: -35px !important;
+    margin-left: 0 !important;
+  }
+  /* 404 page*/
+  .error_404 h1 {
+    font-size: 100px;
+  }
+  .error_404 p {
+    margin-bottom: 10px;
+  }
+  .error_404 form {
+    width: 100%;
+    height: 40px;
+  }
+  .error_404 form button {
+    padding: 0 20px;
+  }
+  .error_404 .back-to-home {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=max-576.css.map */
