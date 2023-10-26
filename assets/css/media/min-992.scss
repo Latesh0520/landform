@@ -103,4 +103,38 @@
             }
         }
     } 
+
+     /*Blog Page*/
+     .blogs-sec{
+        .row{
+            border: unset !important;
+            margin: unset !important;
+            display: grid !important;
+            flex-direction: unset;
+            &.reverse{
+                flex-direction: column-reverse;
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+
+    /*Blog Detail Page*/
+    .blog-detail-page{
+        .blog-detail{
+            width:70%;
+            .comment{
+                &.comment2{
+                    margin-left: 50px !important;
+                }
+                &.comment3{
+                    margin-left: 100px !important;
+                }
+            }
+        }
+        .form{
+            width: 70%;
+        }
+    }
 }

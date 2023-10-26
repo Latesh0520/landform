@@ -84,4 +84,30 @@
   .timeline-sec .timeline .right {
     width: 400px !important;
   }
+  /*Blog Page*/
+  .blogs-sec .row {
+    border: unset !important;
+    margin: unset !important;
+    display: grid !important;
+    flex-direction: unset;
+  }
+  .blogs-sec .row.reverse {
+    flex-direction: column-reverse;
+  }
+  .blogs-sec .row img {
+    vertical-align: middle;
+  }
+  /*Blog Detail Page*/
+  .blog-detail-page .blog-detail {
+    width: 70%;
+  }
+  .blog-detail-page .blog-detail .comment.comment2 {
+    margin-left: 50px !important;
+  }
+  .blog-detail-page .blog-detail .comment.comment3 {
+    margin-left: 100px !important;
+  }
+  .blog-detail-page .form {
+    width: 70%;
+  }
 }/*# sourceMappingURL=min-992.css.map */

@@ -245,4 +245,38 @@
   .error_404 .back-to-home {
     margin-top: 20px;
   }
+  /*Blog Page*/
+  .blogs-sec .row {
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .blogs-sec .row.reverse {
+    flex-direction: column-reverse;
+  }
+  .blogs-sec .row img {
+    vertical-align: middle;
+  }
+  /*Blog Detail Page*/
+  .blog-detail-page .blog-detail {
+    width: 90%;
+  }
+  .blog-detail-page .blog-detail .comment {
+    gap: 20px 20px !important;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  .blog-detail-page .blog-detail .comment .comment-line {
+    line-height: 1.3 !important;
+  }
+  .blog-detail-page .blog-detail .comment.comment2 {
+    margin-left: 0px !important;
+  }
+  .blog-detail-page .blog-detail .comment.comment3 {
+    margin-left: 0px !important;
+  }
+  .blog-detail-page .form {
+    width: 90%;
+  }
 }/*# sourceMappingURL=max-576.css.map */

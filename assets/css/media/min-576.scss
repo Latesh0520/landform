@@ -214,4 +214,43 @@
             }
         }
     }
+
+     /*Blog Page*/
+     .blogs-sec{
+        .row{
+            border: 1px solid gray;
+            margin: 10px;
+            display: flex !important;
+            flex-direction: column;
+            &.reverse{
+                flex-direction: column-reverse;
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+
+    /*Blog Detail Page*/
+    .blog-detail-page{
+        .blog-detail{
+            width: 100%;
+            .comment{
+                gap: 20px 20px !important;
+                margin-bottom: 50px;
+                .comment-line{
+                    line-height: 1.3 !important;
+                }
+                &.comment2{
+                    margin-left: 0px !important;
+                }
+                &.comment3{
+                    margin-left: 0px !important;
+                }
+            }
+        }
+        .form{
+            width: 100%;
+        }
+    }
 }

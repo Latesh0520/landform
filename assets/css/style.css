@@ -8,16 +8,25 @@
 @import url(./media/min-768.css);
 @import url(./media/min-992.css);
 @import url(./media/min-1200.css);
-@import url(./header.css); /* header */
-@import url(./footer.css); /* Footer */
+@import url(./header.css);
+/* header */
+@import url(./footer.css);
+/* Footer */
 /*Pages*/
-@import url(./pages/home.css); /* Home */
-@import url(./pages/about.css); /* Home */
-@import url(./pages/services.css); /* Services */
-@import url(./pages/gallery.css); /* gallery */
-@import url(./pages/portfolio.css); /* portfolio */
-@import url(./pages/our-timeline.css); /* our timeline */
-@import url(./pages/blogs.css); /* Blog */
+@import url(./pages/home.css);
+/* Home */
+@import url(./pages/about.css);
+/* Home */
+@import url(./pages/services.css);
+/* Services */
+@import url(./pages/gallery.css);
+/* gallery */
+@import url(./pages/portfolio.css);
+/* portfolio */
+@import url(./pages/our-timeline.css);
+/* our timeline */
+@import url(./pages/blogs.css);
+/* Blog */
 * {
   margin: 0;
   padding: 0;
